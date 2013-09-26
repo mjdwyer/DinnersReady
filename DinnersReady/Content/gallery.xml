@@ -1,0 +1,25 @@
+<gallery>
+	<settings>
+		<imagesFolder>/Content/images/</imagesFolder>		
+		<bgImage  alpha="100" source="/Content/images/bg.jpg"/>
+
+		<image align="center" cornerRadius="0" scaleMode="fill" transitionEffect="fade" useShadow="true"/>
+		<thumbnail width="60" height="40" cornerRadius="0" alpha="70" outlineColor="0xFFFFFF" outlineColorOnRollOver="0xFFFFFF" outlineColorOnClick="0x8B0000" useShadow="true" usePreview="true"/>
+		<thumbBar scrollSpeed="10" position="bottom"/>
+		<preview  alpha="100" width="200" height="100" outlineColor="0xFFFFFF" useShadow="true" cornerRadius="0"/>
+		<caption position="bottom" visibleMode="onRollOver" bgAlpha="30" color="0xFFFFFF" bgColor="0x000000" fontName="Verdana" fontSize="12"/>
+		<slideshow start="false" delay="3" loop="true" stopAutoOnClick="true"/>
+		<preloader alpha="100" usePreloader="true" />
+		<buttons fullScreenButton="true" navigationButtons="true" slideshowButton="true" />
+		<sounds onRollOver="/Content/sounds/over.mp3" onClick="/Content/sounds/click.mp3" />
+
+		<picasa user="" albumID="" />
+	</settings>
+	<items>
+		<item source="summer1.jpg" thumb="" description="Tilapia Tostados"  />
+		<item source="summer2.jpg" thumb="" description="Peach and Feta Salad" />
+    <item source="summer3.jpg" thumb="" description="Fried Queso and Chorizo Bites"/>
+    <item source="summer4.jpg" thumb="" description="Roasted Root Veggies"/>
+    <item source="assorted food.jpg" thumb="" description="Yummy Dinners"/>
+  </items>
+</gallery>								 
